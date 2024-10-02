@@ -1,0 +1,148 @@
+/* css/style.css */
+
+/* Dracula Theme Variables */
+:root {
+    --background: #282a36;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--purple);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    background-color: var(--current-line);
+    color: var(--foreground);
+    border: 1px solid var(--selection);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+    color: var(--foreground);
+}
+
+button {
+    background-color: var(--pink);
+    color: var(--foreground);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cyan);
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.message.success {
+    color: var(--green);
+}
+
+.message.error {
+    color: var(--red);
+}
+
+.navbar {
+    background-color: var(--current-line);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dashboard-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: var(--current-line);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-details {
+    display: none;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .navbar img {
+        width: 35px;
+        height: 35px;
+    }
+}
