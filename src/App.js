@@ -1,4 +1,10 @@
-// src/App.js
+/**
+ * Componente principal da aplicação.
+ *
+ * @component
+ * @returns {JSX.Element} Componente App com roteamento e estado de cartões.
+ */
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Form from './components/Form';
