@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Prof-Karan-Luciano/Prof-Karan-Luciano.github.io/static/css/main.59986bad.css",
-    "main.js": "/Prof-Karan-Luciano/Prof-Karan-Luciano.github.io/static/js/main.9d83701d.js",
-    "index.html": "/Prof-Karan-Luciano/Prof-Karan-Luciano.github.io/index.html",
-    "main.59986bad.css.map": "/Prof-Karan-Luciano/Prof-Karan-Luciano.github.io/static/css/main.59986bad.css.map",
-    "main.9d83701d.js.map": "/Prof-Karan-Luciano/Prof-Karan-Luciano.github.io/static/js/main.9d83701d.js.map"
+    "main.css": "/static/css/main.59986bad.css",
+    "main.js": "/static/js/main.9d83701d.js",
+    "index.html": "/index.html",
+    "main.59986bad.css.map": "/static/css/main.59986bad.css.map",
+    "main.9d83701d.js.map": "/static/js/main.9d83701d.js.map"
   },
   "entrypoints": [
     "static/css/main.59986bad.css",
